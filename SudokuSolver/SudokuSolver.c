@@ -12,7 +12,6 @@ int isPlaceValid(int**, int, int, int);
 
 int main(void){
     int** board = loadBoard();
-    double timespent = 0.0;
     if(solve(board)){
         printf("Solve successfully\n");
         saveBoard(board);
