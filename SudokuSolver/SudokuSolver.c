@@ -18,6 +18,7 @@ int main(void){
     }else{
         printf("Board cannot be solved\n");
     }
+    free(board);
     return 0;
 }
 
